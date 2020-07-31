@@ -1,0 +1,17 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/cljs"
+  "src/js"]
+
+ :dependencies
+ []
+
+ :dev-http     {9501 "public"}
+ :http         {:port 9502}
+ 
+ :builds
+ {:app {:target     :browser
+        :output-dir "public/js"
+        :asset-path "/js"
+        :modules    {:core {:init-fn io.ianalytics.d4d.core/init!}}
+        :devtools   {:after-load io.ianalytics.d4d.core/reload!}}}}

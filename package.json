@@ -1,0 +1,14 @@
+{
+  "name": "cowork-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "Copyright (C) Industrial Analytics IA GmbH",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "@babel/core": "^7.10.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
