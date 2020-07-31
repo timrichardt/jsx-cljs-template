@@ -1,0 +1,3 @@
+- cljs files live in `src/cljs`
+- jsx files in `src/jsx`
+- with the command `babel src/jsx --out-dir src/js --watch --source-maps` (see `dev.sh`) babel automatically translates the files to vanilla JavaScript files. they live in `src/js`
